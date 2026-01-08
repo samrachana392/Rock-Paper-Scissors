@@ -36,6 +36,6 @@ while True:
     else: 
         print("invalid input")
     
-    ans = input("Do you want to paly again? (y/n): ").lower()
-    if ans != "y":
+    ans = input("Do you want to paly again? (y/n): ").upper()
+    if ans != "Y":
         break
